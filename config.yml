@@ -1,0 +1,9 @@
+options:
+  srcDir: dist
+  buildDir: target
+  jcrPath: /etc/clientlibs/aemlivejs
+defines:
+  artifactId: aemlive-js
+  description: AEM Forms Clientlib
+  groupId: com.aemlivejs.clientlibs
+  version: '1.0.3'

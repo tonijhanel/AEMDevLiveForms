@@ -1,0 +1,39 @@
+{
+  "name": "aemlive-forms-js",
+  "version": "1.0.0",
+  "description": "Example of a project using aem-packager and aem-clientlib-generator to build an AEM content package",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "standard",
+    "build": "clientlib --verbose",
+    "postbuild": "npm run package",
+    "package": "aem-packager --config ./config.yml"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "@semantic-release/npm": "^9.0.1",
+    "aem-clientlib-generator": "^1.8.0",
+    "aem-packager": "^3.1.0",
+    "standard": "^17.0.0"
+  },
+  "aem-packager": {
+    "options": {
+      "srcDir": "dist/clientlibs/example",
+      "buildDir": "target",
+      "jcrPath": "/etc/clientlibs/aemlivejs"
+    },
+    "defines": {
+      "groupId": "com.aemlivejs.clientlibs",
+      "artifactId": "aemlivejs",
+      "version": "1.0.0",
+      "description": "AEM Live AEM Forms clienlibs"
+    }
+  },
+  "dependencies": {
+    "loanjs": "^1.0.8"
+  }
+}
