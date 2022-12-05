@@ -1,18 +1,12 @@
 # aem-packager-example
 
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![Run Tests](https://github.com/amclin/aem-packager-example/actions/workflows/run-tests.yml/badge.svg)](https://github.com/amclin/aem-packager-example/actions/workflows/run-tests.yml)
-
-This is a simple example NodeJS project using [aem-packager](https://www.npmjs.com/package/aem-packager) and [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) to build deployable content packages that can be installed into Adobe Experience Manager via the AEM Package Manager.
-
-![Installed AEM Package](docs/installed-package.png)
+Sample code from November 2022 AEM Developer Live Session.   This is a simple example NodeJS project using [aem-packager](https://www.npmjs.com/package/aem-packager) and [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) to build deployable content packages that can be installed into Adobe Experience Manager via the AEM Package Manager.  This project was created using the AEM-Packager-Example https://github.com/amclin/aem-packager-example
 
 ## External Dependencies
 If you don't already have Maven installed on your system, you will need to get it.
 
 ## Building and Installing
-### 1. Checkout this repo
-`git clone https://github.com/amclin/aem-packager-example`
+### 1. Checkout and clone this repo
 
 ### 2. Install NPM dependencies
 `npm install`
@@ -28,5 +22,3 @@ If you don't already have Maven installed on your system, you will need to get i
 ## More Information
 For more details on how to setup a NodeJS project so it can be compiled and installed into AEM, see [aem-packager](https://github.com/amclin/aem-packager)
 
-
-<!-- sample change -->
